@@ -1,7 +1,7 @@
 <template>
     <main-banner></main-banner>
     <div class="character">
-        <img src="@/assets/img/characters/loki.jpg" alt="" class="loki">
+        <img src="@/assets/img/loki.jpg" alt="" class="loki">
         <div class="info-block">
             <p class="name">LOKI</p>
             <p class="about">In Norse mythology, Loki is a god or jötunn (or both). Loki is the son of Fárbauti and Laufey,

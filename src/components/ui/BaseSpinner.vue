@@ -40,7 +40,7 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #3d008d;
+  background: #9F0013;
   margin: -4px 0 0 -4px;
 }
 

@@ -4,11 +4,6 @@ import characters from "./characters/index.js";
 const store = createStore({
     modules: {
         characters
-    },
-    state() {
-        return {
-            age: 17
-        }
     }
 })
 

@@ -1,7 +1,9 @@
 <template>
     <header>
         <div class="title">
-            <span>Marvel</span> information portal
+            <router-link to="/">
+                <span>Marvel</span> information portal
+            </router-link>
         </div>
         <nav class="menu">
             <ul>

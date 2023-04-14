@@ -37,9 +37,8 @@ export default {
         async loadChars() {
             this.loading = true
             await this.$store.dispatch("loadChars");
-            this.top += 1130;
+            this.top += 1104;
             this.loading = false
-
         },
         selectChar(char) {
             this.selectedChar = char
@@ -87,9 +86,9 @@ export default {
     position: absolute;
     width: 467px;
     height: 372px;
-    top: 1130px;
     right: 0;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     z-index: 0;
+    
 }
 </style>

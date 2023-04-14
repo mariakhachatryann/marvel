@@ -5,7 +5,7 @@ import store from "./store/index"
 
 import BaseButton from "@/components/ui/BaseButton";
 import BaseSpinner from "@/components/ui/BaseSpinner"
-import MainBanner from "@/components/MainBanner"
+import MainBanner from "@/components/ui/MainBanner"
 
 const app = createApp(App)
 

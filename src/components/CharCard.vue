@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="chard">
         <img :src="src+'.jpg'" alt="">
         <p> {{ name }}</p>
     </div>
@@ -12,7 +12,7 @@ export default {
 </script>
 
 <style scoped>
-div {
+.chard {
     width: 180px;
     height: 310px;
     background: #232222;
@@ -22,12 +22,12 @@ div {
     width: 200px;
 }
 
-img {
+.chard img {
     width: 200px;
     height: 200px;
 }
 
-p {
+.chard p {
     color: #fff;
     font-style: normal;
     font-weight: 500;
